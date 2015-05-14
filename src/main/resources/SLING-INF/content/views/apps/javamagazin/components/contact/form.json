@@ -1,0 +1,6 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "text": {
+    "type": "textarea"
+  }
+}

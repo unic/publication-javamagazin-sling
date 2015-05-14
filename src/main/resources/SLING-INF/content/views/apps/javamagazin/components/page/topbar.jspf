@@ -1,0 +1,16 @@
+<div id="topbar">
+    <div class="12u">
+        <ul class="actions">
+            ${request.remoteUser}
+            <c:choose>
+                <c:when test="${slingRequest.remoteUser == 'anonymous'}">
+                    <li><a id="login" class="button alt">Login</a></li>
+                </c:when>
+                <c:otherwise>
+                    <li><a id="editmode" class="button">Edit</a></li>
+                    <li><a id="logout" class="button alt">Logout</a></li>
+                </c:otherwise>
+            </c:choose>
+        </ul>
+    </div>
+</div>

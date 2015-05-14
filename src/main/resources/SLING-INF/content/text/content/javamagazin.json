@@ -1,0 +1,57 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "sling:resourceType": "javamagazin/components/page",
+  "header": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "javamagazin/components/header",
+    "title": "Hi, this is Directive",
+    "text": "A responsive HTML5 + CSS3 site template designed by HTML5 UP and released for free under the Creative Commons license."
+  },
+  "major": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "javamagazin/components/major",
+    "text":"We conduct experiments that may or may not seriously break the universe"
+  },
+  "sections": {
+    "section1": {
+      "title": "The First Thing",
+      "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.",
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "javamagazin/components/section"
+    },
+    "section2": {
+      "title": "The Second Thing",
+      "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.",
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "javamagazin/components/section"
+    },
+    "section3": {
+      "title": "The Third Thing",
+      "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.",
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "javamagazin/components/section"
+    }
+  },
+  "footer": {
+    "sling:resourceType": "javamagazin/components/footer",
+    "title": "Get shady with science",
+    "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus."
+  },
+  "lastMajor": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "javamagazin/components/major",
+    "text":"Questions or comments?"
+  },
+  "contact": {
+    "sling:resourceType": "javamagazin/components/contact",
+    "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.",
+    "requests": {
+      "inbox": {
+        "sling:resourceType": "javamagazin/components/inbox"
+      }
+    }
+  },
+  "login": {
+    "sling:resourceType": "javamagazin/components/login"
+  }
+}

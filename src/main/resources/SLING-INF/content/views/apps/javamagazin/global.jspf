@@ -1,0 +1,5 @@
+<%@page session="false" pageEncoding="UTF-8" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling" %>
+<sling:defineObjects/>
+<sling:adaptTo adaptable="${resource}" adaptTo="org.apache.sling.api.resource.ValueMap" var="properties"/>

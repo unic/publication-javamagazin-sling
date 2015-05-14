@@ -1,0 +1,12 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "image.png": {
+    "type": "image"
+  },
+  "title": {
+    "type": "text"
+  },
+  "text": {
+    "type": "textarea"
+  }
+}
