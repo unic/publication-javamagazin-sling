@@ -1,7 +1,7 @@
 # A Sample application for Apache Sling
 This project demonstrates core concepts and features of the Apache Sling&trade; web framework. 
 It provides a demonstrative mini-CMS application for the beautiful responsive _directive_ template set by [http://html5up.net](http://html5up.net). 
-The application was created as part of an article about Sling featured in the German [Java Magazin](https://jaxenter.de/magazine/java-magazin).
+The application was created as part of an [article about Sling](https://jaxenter.de/rest-in-peace-sling-25255) featured in the German [Java Magazin](https://jaxenter.de/magazine/java-magazin).
 
 ![Sling Directive: A Sample application for Apache Sling](README/intro.png)
 
